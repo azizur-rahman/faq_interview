@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Index";
+    var showInstructions = TempData["SHOW_INSTRUCTIONS"] != null && TempData["SHOW_INSTRUCTIONS"].ToString() == "TRUE";
+    TempData["NAV"] = "INDEX";
+}
+
+@if (!showInstructions)
+{
+    <h2>Welcome to the practical interview.</h2>
+    <br />
+    <div>
+        This test is about 4 common problems we work on daily basis.
+        <br />
+        Please click on the Read Instructions before you start. <br /> <br /> <a class="btn btn-success" href="/Interview/Index?showInstructions=true">Read Instructions</a>
+    </div>
+    return;
+}
+
+<h2>Welcome to the practical interview.</h2>
+<br />
+<p>There are <strong>4</strong> problems to solve in this project. Each menu represents a problem.</p>
+
+<h3>Instructions</h3>
+<p>Please Download the source code from the button below. After completion upload it to your github/bitbucket account and share with us in the following email address <strong>tokyo@faqi.com.au/</strong>.</p>
+<pre>
+<strong class="mgb"> Git commit example </strong>
+      {Task Name} : {Time}
+      
+      Like 
+      Data Post Issue : 1 hour
+      Sql : .5 hour
+      Report : 1.5 hour
+</pre>
+
+<p><strong>Good Luck!</strong></p>
+
+
+
+<div>
+    <a class="btn btn-success pull-left" href="/FaqInterview.zip">CLICK TO DOWNLOAD PROJECT SOURCE CODE HERE</a>
+    <a class="btn btn-success pull-right" href="/interview/savedata">Next >></a>
+</div>

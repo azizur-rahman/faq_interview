@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "SQL Issue";
+    TempData["NAV"] = "SQL";
+}
+
+<h2>Write SQL query</h2>
+
+You are given a script that will generate some data set. Script is inside the SQL Folder in the root directory. Run that script. Please update your query in query.sql file inside SQL folder.
+
+<h3>Requirements</h3>
+<p>Find the employees of highest two ranks (highest - 1, lowest - 5) and serialize them based on their salary in descending order. Also, find the salary difference of each employee from the highest paid employee of the same rank. If an employee has the highest salary within the same ranked employees then mark it as “Max Salary”.</p>
+
+<h3>Table Data</h3>
+<img src="~/Images/sql_raw_table.png" />
+
+<h3>Output</h3>
+<img src="~/Images/sql_output.png" />
+
+<br />
+<br />
+<div>
+    <a class="btn btn-success pull-left" href="/interview/savedata">Previous</a>
+    <a class="btn btn-success pull-right" href="/interview/report">Next >></a>
+</div>

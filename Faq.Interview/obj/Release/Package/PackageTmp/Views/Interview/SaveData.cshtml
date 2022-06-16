@@ -1,0 +1,84 @@
+﻿@model DinnerViewModel
+@{
+    ViewBag.Title = "Save data  issue";
+    TempData["NAV"] = "DATA";
+}
+
+<h2>Save data issue</h2>
+
+<div class="row">
+    <div class="col-sm-6">
+        @using (Html.BeginForm("SaveData", "Interview", FormMethod.Post, new { autocomplete = "off" }))
+        {
+            @Html.ValidationSummary(true)
+
+            @Html.AntiForgeryToken()
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, "Name", new { @class = "control-label" })
+                <div class="control">
+                    @Html.TextBoxFor(model => model.Name, new { @class = "form-control", autocomplete = "off", @readonly = "true" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Description, "Description", new { @class = "control-label" })
+                <div class="control">
+                    @Html.TextAreaFor(model => model.Description, new { @class = "form-control", autocomplete = "off", @readonly = "true" })
+                </div>
+            </div>
+
+            <h4>Sizing Information</h4>
+            <div class="row mgt">
+                <div class="col-sm-3 mgb"><strong>Sizes</strong></div>
+                <div class="col-sm-4  mgb"><strong>Price($)</strong> </div>
+                <div class="col-sm-4  mgb"><strong>Unit(kg)</strong></div>
+
+                @foreach (var size in Model.Sizes)
+                {
+                    <div class="col-sm-3 mgb">
+                        @Html.Label(size.Name, new { @class = "control-label" })
+                        @Html.HiddenFor(model => size.Name)
+                    </div>
+                    <div class="col-sm-4 mgb">
+                        @Html.TextBoxFor(model => size.Price, new { @class = "form-control", autocomplete = "off", @readonly = "true" })
+                    </div>
+                    <div class="col-sm-4 mgb">
+                        @Html.TextBoxFor(model => size.Unit, new { @class = "form-control", autocomplete = "off", @readonly = "true" })
+                    </div>
+                }
+            </div>
+            
+            <div class="form-group">
+                <div class="control action clearfix">
+                    <button type="submit" class="btn btn-success">
+                        Save
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="col-sm-6">
+        <h2>Description</h2>
+        <div class="issue-description">
+            We have some data in this form, hitting the Save button all data should receive by POST(savedata) function including sizing information array.
+            <br />
+            <br />
+            There are 2 issues <br />
+            1) Exception
+            <br />
+            2) Sizing information does not pass through.
+            <br />
+            <br />
+            <strong>Please solve these issues so that the controller function receives data accordingly.</strong>
+
+            <br />
+            <br />
+            <div class="clearfix">
+                <a class="btn btn-success pull-left" href="/interview/index">&lt;&lt; Previous</a>
+                <a class="btn btn-success pull-right" href="/interview/sql">Next >></a>
+            </div>
+        </div>
+    </div>
+</div>

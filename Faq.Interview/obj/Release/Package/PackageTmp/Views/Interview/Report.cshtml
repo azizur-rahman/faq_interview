@@ -1,0 +1,102 @@
+﻿@using System.Globalization
+@{
+    ViewBag.Title = "Weekly salary seport";
+    var months = Enumerable.Range(0, 12).Select(m => new DataListItem
+    {
+        Text = DateTimeFormatInfo.CurrentInfo.MonthNames[m],
+        Value = (m + 1).ToString()
+    });
+
+    TempData["NAV"] = "REPORT";
+}
+
+<h2>Weekly salary report </h2>
+
+<div class="row">
+    <div class="col-sm-6">
+        <label class="challenge-title">Select Month</label>
+        @Html.DropDownList("month",
+            new SelectList(months, "Value", "Text"),
+            "Please select a month",
+            new { id = "month", @class = "auto-postback month-dropdown" })
+
+        <br /> <br />
+
+        <h4>Salary report</h4>
+        <div class="row mgt mgb">
+            <div class="col-sm-2"><strong>Name</strong></div>
+            <div class="col-sm-2"><strong>Week 1</strong> </div>
+            <div class="col-sm-2"><strong>Week 2</strong></div>
+            <div class="col-sm-2"><strong>Week 3</strong></div>
+            <div class="col-sm-2"><strong>Week 4</strong> </div>
+            <div class="col-sm-2"><strong>Week 5</strong></div>
+        </div>
+        <div class="row mgb-sm table-row">
+            <div class="col-sm-2">Jhon</div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+        </div>
+
+        <div class="row  mgb-sm table-row">
+            <div class="col-sm-2">Phil</div>
+            <div class="col-sm-2">$100</div>
+            <div class="col-sm-2">$100</div>
+            <div class="col-sm-2">$150</div>
+            <div class="col-sm-2">$150</div>
+            <div class="col-sm-2">--</div>
+        </div>
+        <div class="row  mgb-sm table-row">
+            <div class="col-sm-2">Smith</div>
+            <div class="col-sm-2">--</div>
+            <div class="col-sm-2">$100</div>
+            <div class="col-sm-2">$50</div>
+            <div class="col-sm-2">--</div>
+            <div class="col-sm-2">--</div>
+        </div>
+        <div class="row mgb-sm table-row">
+            <div class="col-sm-2">Roy</div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+        </div>
+        <div class="row mgb-sm table-row">
+            <div class="col-sm-2">Adam</div>
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <h2>Description</h2>
+        <div class="issue-description">
+            Here this view shows some tabular static data. Your job is to make data dynamically come from a data source provided found in <strong>Helper/DataProvider/Report</strong> Function. Let's consider a scenario where employees get paid on daily basis. You will have to calculate the weekly payment received by an employee and show it in the tabular format based on the month selected in the dropdown.
+            <br />
+            <br />
+            <strong> Instructions </strong>
+            <p>**Week will start from the first day of the selected month.</p>
+            <p>**Dropdown selection will automatically trigger an event and refresh the page with the selected month passed as a query string.</p>
+            <p>**Year will be the current year.</p>
+            <p>**<strong>Data:</strong> Daily salary data is provided in the Salary class (date and amount field) as a list inside the Employee class.</p>
+            <br />
+            <br />
+            <div class="clearfix">
+                <a class="btn btn-success pull-left" href="/interview/sql">&lt;&lt; Previous</a>
+                <a class="btn btn-success pull-right" href="/interview/problem">Next >></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script type="text/javascript">
+            //Script code will go here
+    </script>
+}

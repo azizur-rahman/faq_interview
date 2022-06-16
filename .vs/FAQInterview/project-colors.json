@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "327aaba3-77f7-4e5b-8baa-e1ac75198742": {
+      "ProjectGuid": "327aaba3-77f7-4e5b-8baa-e1ac75198742",
+      "DisplayName": "ConsoleApp",
+      "ColorIndex": 0
+    },
+    "021bb525-a9fc-4f7a-bfef-f5bd5cfdf742": {
+      "ProjectGuid": "021bb525-a9fc-4f7a-bfef-f5bd5cfdf742",
+      "DisplayName": "FAQ.Interview",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

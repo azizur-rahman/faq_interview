@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Logical Problem";
+    TempData["NAV"] = "PROBLEM";
+}
+
+<h2>Logical Problem</h2>
+<div class="issue-description">
+    Let's consider any game where players will score. The player with a high score will be ranked number 1. The player who has the same score will receive a same ranking number, and the next player(s) receive the immediately following ranking number.
+    <br />
+    <br />
+    <strong> Example </strong>
+
+    <p> ranked = [50,40,40,30] </p>
+    <p> player = [25,30,100] </p>
+
+    The ranked players will have ranks 1, 2, 2, and 3, respectively. if player scores are 25,30 and 100 their rankings after each game are 4th, 3rd, and 1st Return [4,3,1].
+
+    <strong> Input parameter </strong>
+
+    <ul>
+        <li>int ranked[n]: the leaderboard scores</li>
+        <li>int player[m]: the player's scores</li>
+    </ul>
+
+    <strong>Output</strong>
+    <ul>
+        <li>Return player rank array</li>
+    </ul>
+
+    <strong>Sample input</strong>
+    <pre>
+        7                                                            - array item count 
+        100 100 50 40 40 20 10                                       - ranked[n]
+        4                                                            - array item count
+        5 25 50 120                                                  - player[n]
+    </pre>
+
+    <strong>Sample output</strong>
+    <pre>
+        6
+        4
+        2
+        1
+    </pre>
+
+    <strong>Instructions</strong>
+    <p>**You were given a console application inside the Console folder to work with.</p>
+    <p>**input.txt file is in the root directory of the console application. Source code has file read functionality and arrays are already populated from the file.</p>
+    <p>**Program.cs has a function where it receives 2 input arrays and returns the result. You will have to write your logic inside that function only and populate that array. The result will print.</p>
+    <br />
+    <br />
+    <div class="clearfix">
+        <a class="btn btn-success pull-left" href="/interview/report">&lt;&lt; Previous</a>
+    </div>
+ </div>
+

@@ -1,0 +1,14 @@
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.AssemblyReference.cache
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+E:\5rr\FaqInterview\InterviewSourceCode\Console\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache

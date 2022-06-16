@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_NewBackgroundProfile>True</_NewBackgroundProfile>
+    <_PublishTargetUrl>D:\Projects\Burn2Learn\Compiled\V2\Admin</_PublishTargetUrl>
+    <History>True|2022-06-15T12:25:44.8456641Z;True|2022-03-13T17:37:00.0901704+06:00;True|2022-02-28T16:59:42.9343679+06:00;True|2022-02-27T16:53:55.1756097+06:00;True|2022-02-27T14:37:49.7682657+06:00;True|2022-02-27T14:30:28.8149161+06:00;True|2022-02-27T14:29:26.8092607+06:00;True|2022-02-27T11:01:05.9135786+06:00;True|2022-02-23T09:37:30.3845059+06:00;True|2022-02-22T12:00:33.9466771+06:00;True|2022-02-22T11:52:39.8901298+06:00;True|2022-02-17T11:12:17.0799087+06:00;True|2022-02-17T10:47:07.1855570+06:00;True|2022-02-17T10:39:48.8135138+06:00;True|2022-02-16T17:13:18.6695651+06:00;True|2022-02-16T17:04:55.6164233+06:00;True|2022-02-16T13:07:26.3522368+06:00;True|2022-02-16T13:06:40.9937783+06:00;True|2022-02-16T13:05:57.1898315+06:00;True|2022-02-16T11:42:25.6834320+06:00;True|2022-02-16T11:22:04.7281093+06:00;True|2022-02-14T13:34:54.7311834+06:00;True|2022-02-13T16:29:33.8387200+06:00;True|2022-02-13T16:12:38.0324659+06:00;True|2022-02-13T16:11:52.6348925+06:00;True|2022-02-13T15:26:33.4110107+06:00;True|2021-10-13T13:07:53.8175307+06:00;True|2021-10-13T12:26:25.1928514+06:00;True|2021-10-13T12:09:05.4414451+06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/BouncyCastle.Crypto.dll">
+      <publishTime>02/20/2021 03:04:50</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Common.dll">
+      <publishTime>02/13/2022 15:47:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Common.pdb">
+      <publishTime>02/13/2022 15:47:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Data.dll">
+      <publishTime>03/13/2022 16:19:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Data.dll.config">
+      <publishTime>01/10/2022 15:35:35</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Data.pdb">
+      <publishTime>03/13/2022 16:19:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Entities.dll">
+      <publishTime>03/13/2022 16:19:10</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Entities.pdb">
+      <publishTime>03/13/2022 16:19:10</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Repositories.dll">
+      <publishTime>03/13/2022 16:19:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Repositories.dll.config">
+      <publishTime>10/13/2021 11:00:27</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Repositories.pdb">
+      <publishTime>03/13/2022 16:19:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Services.dll">
+      <publishTime>03/13/2022 16:19:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Services.dll.config">
+      <publishTime>10/13/2021 11:00:27</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Services.pdb">
+      <publishTime>03/13/2022 16:19:11</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Web.Admin.dll">
+      <publishTime>03/13/2022 16:51:06</publishTime>
+    </File>
+    <File Include="bin/Burn2Learn.Web.Admin.pdb">
+      <publishTime>03/13/2022 16:51:06</publishTime>
+    </File>
+    <File Include="bin/CommonServiceLocator.dll">
+      <publishTime>12/07/2018 06:35:18</publishTime>
+    </File>
+    <File Include="bin/CommonServiceLocator.pdb">
+      <publishTime>12/07/2018 06:35:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/FAQ.Interview.dll">
+      <publishTime>06/15/2022 18:26:07</publishTime>
+    </File>
+    <File Include="bin/FAQ.Interview.pdb">
+      <publishTime>06/15/2022 18:26:07</publishTime>
+    </File>
+    <File Include="bin/Kendo.Mvc.dll">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="bin/MailKit.dll">
+      <publishTime>08/19/2021 08:55:36</publishTime>
+    </File>
+    <File Include="bin/MailKit.pdb">
+      <publishTime>08/19/2021 08:55:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.pdb">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Configuration.dll">
+      <publishTime>05/10/2015 09:37:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>05/10/2015 09:37:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Mvc.dll">
+      <publishTime>05/10/2015 09:37:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <publishTime>05/10/2015 09:37:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/MimeKit.dll">
+      <publishTime>08/19/2021 08:27:32</publishTime>
+    </File>
+    <File Include="bin/MimeKit.pdb">
+      <publishTime>08/19/2021 08:27:32</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/28/2018 00:07:34</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.pdb">
+      <publishTime>11/27/2018 23:59:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>02/19/2020 16:05:18</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.dll">
+      <publishTime>05/28/2014 17:35:42</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/11/2018 04:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/11/2018 04:38:08</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/11/2018 04:38:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/11/2018 04:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/11/2018 04:42:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/11/2018 04:42:40</publishTime>
+    </File>
+    <File Include="bin/Unity.Abstractions.dll">
+      <publishTime>08/13/2018 03:48:58</publishTime>
+    </File>
+    <File Include="bin/Unity.Configuration.dll">
+      <publishTime>12/07/2018 06:35:18</publishTime>
+    </File>
+    <File Include="bin/Unity.Configuration.pdb">
+      <publishTime>12/07/2018 06:35:18</publishTime>
+    </File>
+    <File Include="bin/Unity.Container.dll">
+      <publishTime>12/07/2018 04:41:14</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.Configuration.dll">
+      <publishTime>12/07/2018 06:35:24</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.Configuration.pdb">
+      <publishTime>12/07/2018 06:35:24</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.dll">
+      <publishTime>12/07/2018 06:35:20</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.pdb">
+      <publishTime>12/07/2018 06:35:20</publishTime>
+    </File>
+    <File Include="bin/Unity.Mvc.dll">
+      <publishTime>08/29/2018 19:10:58</publishTime>
+    </File>
+    <File Include="bin/Unity.RegistrationByConvention.dll">
+      <publishTime>12/07/2018 06:35:22</publishTime>
+    </File>
+    <File Include="bin/Unity.RegistrationByConvention.pdb">
+      <publishTime>12/07/2018 06:35:22</publishTime>
+    </File>
+    <File Include="bin/Unity.ServiceLocation.dll">
+      <publishTime>12/07/2018 06:35:18</publishTime>
+    </File>
+    <File Include="bin/Unity.ServiceLocation.pdb">
+      <publishTime>12/07/2018 06:35:18</publishTime>
+    </File>
+    <File Include="bin/WebActivatorEx.dll">
+      <publishTime>10/05/2016 19:11:52</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>10/13/2021 11:00:30</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.eot">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.svg">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff2">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome.otf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.eot">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.svg">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/21/2022 15:58:28</publishTime>
+    </File>
+    <File Include="Images/app/add-icon.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/alarm-icon-10s.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/alarm-icon-30s.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/alarm-icon.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/App_Store_Badge_US-UK_135x40.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Ball-Dribble.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Bear-Crawl.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/category-bg.jpg">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/category-page-bg.jpg">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Fast-Feet.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Front-Kicks.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Get-Ups.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/header-title-bg.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/High-Knees.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/High-Skip.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/info-icon.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/interval-bg.jpg">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/interval-curve.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/interval-img-1.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Jump-to-Wide-Squat.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Jumping-Jacks.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Knee-Strikes.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Lateral-Jumps.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Lunge-Jumps.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Lunge-With-Ball.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Lunges.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/missing.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Mountain-Climbers.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/One-Foot-Skiier-Hops.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Plank-Jacks.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Plank-Punches.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Push-Ups.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/repeat-20s-img.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/repeat-30s-img.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/rest-bg-curve.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/rest-bg.jpg">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Russian-Twists-With-Ball.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Shuttle-Run.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Shuttle-With-Partner-Ball.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Side-Step.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Sit-Ups-with-Ball.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Sit-Ups.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Skipping.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Squat-Jumps.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Squat-with-Ball.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Squat.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Sumo-Squat.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/T-Agility-Run.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/tips-icon.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Tuck-Jump.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/video-icon.png">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/Watch-Video.gif">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/workout-bg.jpg">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Images/app/workout1-1.jpg">
+      <publishTime>07/17/2017 16:32:41</publishTime>
+    </File>
+    <File Include="Images/btn-close.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Images/email-header.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Images/favicon.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Images/logo-challenge.png">
+      <publishTime>01/05/2022 10:16:46</publishTime>
+    </File>
+    <File Include="Images/logo.png">
+      <publishTime>03/21/2022 16:17:38</publishTime>
+    </File>
+    <File Include="Images/medal-first.png">
+      <publishTime>01/05/2022 16:27:34</publishTime>
+    </File>
+    <File Include="Images/medal-second.png">
+      <publishTime>01/05/2022 16:28:08</publishTime>
+    </File>
+    <File Include="Images/medal-third.png">
+      <publishTime>01/05/2022 16:28:42</publishTime>
+    </File>
+    <File Include="Images/sql_output.png">
+      <publishTime>06/15/2022 15:41:41</publishTime>
+    </File>
+    <File Include="Images/sql_raw_table.png">
+      <publishTime>06/15/2022 15:47:37</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/15/2021 17:16:34</publishTime>
+    </File>
+    <File Include="robots.txt">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap-slider.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.datepicker.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/charts.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/common.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/globalize.culture.en-AU.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/globalize.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.12.4.min.map">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.colorbox.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/kendo-ui/cultures/kendo.culture.en-AU.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/kendo-ui/kendo.aspnetmvc.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/kendo-ui/kendo.web.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/numeric.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="SQL/query.sql">
+      <publishTime>06/15/2022 15:45:34</publishTime>
+    </File>
+    <File Include="SQL/TableData.sql">
+      <publishTime>06/15/2022 15:45:57</publishTime>
+    </File>
+    <File Include="Styles/app.css">
+      <publishTime>02/14/2022 12:49:00</publishTime>
+    </File>
+    <File Include="Styles/bootstrap-checkbox.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/bootstrap-datepicker.css">
+      <publishTime>10/13/2021 11:00:42</publishTime>
+    </File>
+    <File Include="Styles/bootstrap-slider.min.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/bootstrap.min.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/colorbox.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/font-awesome.min.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSans-Bold.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSans-BoldOblique.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSans-ExtraLight.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSans-Oblique.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSans.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSansMono-Bold.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSansMono-BoldOblique.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSansMono-Oblique.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSansMono.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSerif-Bold.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSerif-BoldItalic.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSerif-Italic.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/DejaVuSerif.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/DejaVu/LICENSE.txt">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/glyphs/KendoUIGlyphs.eot">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/glyphs/KendoUIGlyphs.svg">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/glyphs/KendoUIGlyphs.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/fonts/glyphs/KendoUIGlyphs.woff">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/images/back.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/images/kendoui.svg">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/images/kendoui.ttf">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/images/kendoui.woff">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/images/wp8_icons.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/images/wp8_inverseicons.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/kendo.common-material.core.min.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/kendo.common-material.min.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/kendo.common.min.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/kendo.material.min.css">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/editor.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/imagebrowser.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/indeterminate.gif">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/loading-image.gif">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/loading.gif">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/loading_2x.gif">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/markers.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/markers_2x.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/slider-h.gif">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/slider-v.gif">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/sprite.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/sprite_2x.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/sprite_kpi.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/kendo-ui/Material/sprite_kpi_2x.png">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Styles/layout.css">
+      <publishTime>03/28/2022 11:48:48</publishTime>
+    </File>
+    <File Include="Views/Account/ChangePassword.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Account/Profile.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/App/Workout.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/App/Workouts.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Challenge/Create.cshtml">
+      <publishTime>02/13/2022 12:52:59</publishTime>
+    </File>
+    <File Include="Views/Challenge/Details.cshtml">
+      <publishTime>02/13/2022 12:53:06</publishTime>
+    </File>
+    <File Include="Views/Challenge/Edit.cshtml">
+      <publishTime>03/02/2022 09:45:21</publishTime>
+    </File>
+    <File Include="Views/Challenge/Leaderboard.cshtml">
+      <publishTime>03/13/2022 14:32:54</publishTime>
+    </File>
+    <File Include="Views/Challenge/List.cshtml">
+      <publishTime>02/27/2022 09:50:28</publishTime>
+    </File>
+    <File Include="Views/Challenge/Participant.cshtml">
+      <publishTime>02/28/2022 16:33:03</publishTime>
+    </File>
+    <File Include="Views/Challenge/_Challenge.cshtml">
+      <publishTime>02/14/2022 11:21:50</publishTime>
+    </File>
+    <File Include="Views/Dashboard/Index.cshtml">
+      <publishTime>02/13/2022 12:53:53</publishTime>
+    </File>
+    <File Include="Views/Info/Privacy.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Info/Support.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Interview/Index.cshtml">
+      <publishTime>06/15/2022 18:15:46</publishTime>
+    </File>
+    <File Include="Views/Interview/Problem.cshtml">
+      <publishTime>06/15/2022 14:37:52</publishTime>
+    </File>
+    <File Include="Views/Interview/Report.cshtml">
+      <publishTime>06/15/2022 18:21:40</publishTime>
+    </File>
+    <File Include="Views/Interview/SaveData.cshtml">
+      <publishTime>06/15/2022 13:21:30</publishTime>
+    </File>
+    <File Include="Views/Interview/Sql.cshtml">
+      <publishTime>06/15/2022 17:03:13</publishTime>
+    </File>
+    <File Include="Views/School/Classes.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/School/Create.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/School/Edit.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/School/List.cshtml">
+      <publishTime>01/10/2022 11:47:20</publishTime>
+    </File>
+    <File Include="Views/School/Teachers.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/School/_School.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/15/2022 18:22:37</publishTime>
+    </File>
+    <File Include="Views/Shared/_LayoutApp.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/Base64.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/Devices.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/Encryption.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/Log.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/Logs.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/PushNotification.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/Settings.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/TimeZone.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/System/_Variable.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Teacher/AddStudent.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Teacher/CreateClass.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Teacher/EditClass.cshtml">
+      <publishTime>01/10/2022 11:47:28</publishTime>
+    </File>
+    <File Include="Views/Teacher/EditStudent.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Teacher/Index.cshtml">
+      <publishTime>03/13/2022 12:42:29</publishTime>
+    </File>
+    <File Include="Views/Teacher/Register.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Teacher/_Class.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Teacher/_Student.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Term/Create.cshtml">
+      <publishTime>02/14/2022 19:25:30</publishTime>
+    </File>
+    <File Include="Views/Term/Edit.cshtml">
+      <publishTime>01/10/2022 11:55:55</publishTime>
+    </File>
+    <File Include="Views/Term/List.cshtml">
+      <publishTime>02/10/2022 14:49:20</publishTime>
+    </File>
+    <File Include="Views/Term/_Term.cshtml">
+      <publishTime>02/14/2022 11:19:41</publishTime>
+    </File>
+    <File Include="Views/Training/GroupSessions.cshtml">
+      <publishTime>06/13/2017 18:50:44</publishTime>
+    </File>
+    <File Include="Views/Training/Session.cshtml">
+      <publishTime>10/13/2021 11:00:26</publishTime>
+    </File>
+    <File Include="Views/Training/Sessions.cshtml">
+      <publishTime>02/10/2022 10:34:42</publishTime>
+    </File>
+    <File Include="Views/Training/UserWorkouts.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/Training/Workouts.cshtml">
+      <publishTime>06/13/2017 18:46:09</publishTime>
+    </File>
+    <File Include="Views/User/List.cshtml">
+      <publishTime>10/13/2021 11:00:41</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>03/21/2022 16:11:34</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>10/13/2021 11:00:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/15/2022 18:25:43</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
