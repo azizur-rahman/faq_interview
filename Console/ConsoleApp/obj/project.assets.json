@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\5rr\\FaqInterview\\InterviewSourceCode\\Console\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "E:\\InterviewSourceCode\\Console\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "E:\\5rr\\FaqInterview\\InterviewSourceCode\\Console\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "E:\\InterviewSourceCode\\Console\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\ACT\\.nuget\\packages\\",
-      "outputPath": "E:\\5rr\\FaqInterview\\InterviewSourceCode\\Console\\ConsoleApp\\obj\\",
+      "outputPath": "E:\\InterviewSourceCode\\Console\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
