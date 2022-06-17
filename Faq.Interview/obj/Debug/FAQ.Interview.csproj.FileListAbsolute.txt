@@ -89,6 +89,7 @@ E:\5rr\FaqInterview\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.cs
 E:\5rr\FaqInterview\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.dll
 E:\5rr\FaqInterview\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.pdb
 E:\5rr\FaqInterview\InterviewSourceCode\FAQ.Interview\bin\BeginCollectionItem.dll
+E:\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.csproj.CoreCompileInputs.cache
 E:\InterviewSourceCode\FAQ.Interview\bin\roslyn\csc.exe
 E:\InterviewSourceCode\FAQ.Interview\bin\roslyn\csc.exe.config
 E:\InterviewSourceCode\FAQ.Interview\bin\roslyn\csc.rsp
@@ -176,7 +177,6 @@ E:\InterviewSourceCode\FAQ.Interview\bin\Unity.Mvc.xml
 E:\InterviewSourceCode\FAQ.Interview\bin\Unity.RegistrationByConvention.pdb
 E:\InterviewSourceCode\FAQ.Interview\bin\Unity.ServiceLocation.pdb
 E:\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.csproj.AssemblyReference.cache
-E:\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.csproj.CoreCompileInputs.cache
 E:\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.csproj.CopyComplete
 E:\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.dll
 E:\InterviewSourceCode\FAQ.Interview\obj\Debug\FAQ.Interview.pdb

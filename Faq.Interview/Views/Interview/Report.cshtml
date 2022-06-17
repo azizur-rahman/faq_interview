@@ -1,4 +1,6 @@
-﻿@using System.Globalization
+﻿@model List<FAQ.Interview.Helper.WeeklySalaryReport>
+@using System.Globalization
+
 @{
     ViewBag.Title = "Weekly salary seport";
     var months = Enumerable.Range(0, 12).Select(m => new DataListItem
@@ -31,47 +33,17 @@
             <div class="col-sm-2"><strong>Week 4</strong> </div>
             <div class="col-sm-2"><strong>Week 5</strong></div>
         </div>
-        <div class="row mgb-sm table-row">
-            <div class="col-sm-2">Jhon</div>
-            <div class="col-sm-2"> </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-        </div>
-
-        <div class="row  mgb-sm table-row">
-            <div class="col-sm-2">Phil</div>
-            <div class="col-sm-2">$100</div>
-            <div class="col-sm-2">$100</div>
-            <div class="col-sm-2">$150</div>
-            <div class="col-sm-2">$150</div>
-            <div class="col-sm-2">--</div>
-        </div>
-        <div class="row  mgb-sm table-row">
-            <div class="col-sm-2">Smith</div>
-            <div class="col-sm-2">--</div>
-            <div class="col-sm-2">$100</div>
-            <div class="col-sm-2">$50</div>
-            <div class="col-sm-2">--</div>
-            <div class="col-sm-2">--</div>
-        </div>
-        <div class="row mgb-sm table-row">
-            <div class="col-sm-2">Roy</div>
-            <div class="col-sm-2"> </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-        </div>
-        <div class="row mgb-sm table-row">
-            <div class="col-sm-2">Adam</div>
-            <div class="col-sm-2"> </div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-            <div class="col-sm-2"></div>
-        </div>
+        @foreach (var item in Model)
+        {
+            <div class="row mgb-sm table-row">
+                <div class="col-sm-2">@item.EmployeeName</div>
+                <div class="col-sm-2">@String.Format(item.Week1 != 0 ? item.Week1.ToString("C") : "--") </div>
+                <div class="col-sm-2">@String.Format(item.Week2 != 0 ? item.Week2.ToString("C") : "--")</div>
+                <div class="col-sm-2">@String.Format(item.Week3 != 0 ? item.Week3.ToString("C") : "--")</div>
+                <div class="col-sm-2">@String.Format(item.Week4 != 0 ? item.Week4.ToString("C") : "--")</div>
+                <div class="col-sm-2">@String.Format(item.Week5 != 0 ? item.Week5.ToString("C") : "--")</div>
+            </div>
+        }
     </div>
     <div class="col-sm-6">
         <h2>Description</h2>

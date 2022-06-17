@@ -251,6 +251,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helper\DataProvider.cs" />
+    <Compile Include="Helper\WeeklySalaryReport.cs" />
+    <Compile Include="Helper\WeekMonthCalender.cs" />
     <Compile Include="Models\InterviewViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
