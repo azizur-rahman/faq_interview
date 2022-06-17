@@ -1,0 +1,16 @@
+﻿@model Size
+
+@using (Html.BeginCollectionItem("Sizes"))
+{
+    <div class="col-sm-3 mgb">
+        @Html.Label(Model.Name, new { @class = "control-label" })
+        @Html.HiddenFor(model => Model.Name)
+    </div>
+    <div class="col-sm-4 mgb">
+        @Html.TextBoxFor(model => Model.Price, new { @class = "form-control", autocomplete = "off", @readonly = "true" })
+    </div>
+    <div class="col-sm-4 mgb">
+        @Html.TextBoxFor(model => Model.Unit, new { @class = "form-control", autocomplete = "off", @readonly = "true" })
+    </div>
+}
+

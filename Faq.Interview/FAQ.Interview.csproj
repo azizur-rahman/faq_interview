@@ -283,6 +283,7 @@
     <Content Include="Views\Interview\Report.cshtml" />
     <Content Include="Views\Interview\Problem.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Collection.cshtml" />
+    <Content Include="Views\Interview\_Sizes.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
